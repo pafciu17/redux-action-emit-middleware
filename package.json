@@ -1,0 +1,25 @@
+{
+  "name": "redux-action-emit-middleware",
+  "version": "0.0.6",
+  "description": "Middleware for emiting redux actions over socket",
+  "main": "./dist/index.js",
+  "keywords": [
+    "redux",
+    "middleware",
+    "socket"
+  ],
+  "author": "pafciu17",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io-client": "^1.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
+  }
+}
