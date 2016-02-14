@@ -5,7 +5,7 @@ Middleware for emitting redux actions over socket
 import { createStore, applyMiddleware } from 'redux';
 import createActionEmitMiddleware from 'redux-action-emit-middleware';
 
-const externalActionMiddleware = createActionEmitMiddleware('http://pnie.eu:3001');
+const externalActionMiddleware = createActionEmitMiddleware('http://localhost:3000');
 const createStoreWithMiddleware = applyMiddleware(externalActionMiddleware)(createStore);
 ...
 
