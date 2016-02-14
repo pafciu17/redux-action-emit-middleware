@@ -1,6 +1,6 @@
 {
   "name": "redux-action-emit-middleware",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Middleware for emiting redux actions over socket",
   "main": "./dist/index.js",
   "keywords": [
